@@ -6,8 +6,8 @@ Project duration: March - Mid-April
 ## Overview
 This project aims to use an AI model to predict lost wireless water meter data.
 
-## Main Problem
-My employer, SOCWA (Southeastern Oakland County Water Authority), receives wireless data from a collection of water meters via PLCs every 5 minutes in 1 minute batches. Occasionally, the signal is lost, and a batch is not received. This creates gaps in the data when visualizing and analyzing water meter usage. Using an AI model can help predict this missing data for clearer analysis.
+## Abstract
+SOCWA (Southeastern Oakland County Water Authority) receives batches of wireless data from water meters that occasionally get lost in transmission, leaving gaps in the data. Using a BiLSTM (Bidirectional Long Short Term Memory) model can analyze this sequential data before and after a selected data point. A sliding window was implemented to only evaluate data 15 minutes before and after the selected data point. Additionally, masking techniques were used to train the model since there is only a single dataset. The model achieved an MSE train loss of about 15 and a validation loss of about 9. Overall, the model was accurate within about 2-3 units.
 
 This project uses the following dependencies:
 pip install pandas numpy matplotlib torch ipywidgets
