@@ -20,3 +20,7 @@ https://drive.google.com/file/d/1qdoVL8gfkNH65kAucpxx3_4txV-N18WW/view?usp=drive
 
 Link to report:
 https://drive.google.com/drive/folders/1sehhj31wehFfLuu3HR2AtLZUB3E4vwJh?usp=drive_link
+
+Credits:
+Google Gemini for help with debugging and ideas for project
+Structure of BiLSTM model: https://www.codegenes.net/blog/bi-directional-lstm-attention-pytorch/
