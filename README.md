@@ -17,3 +17,6 @@ These packages are already installed
 
 Link to project presentation video:
 https://drive.google.com/file/d/1qdoVL8gfkNH65kAucpxx3_4txV-N18WW/view?usp=drive_link
+
+Link to report:
+https://drive.google.com/drive/folders/1sehhj31wehFfLuu3HR2AtLZUB3E4vwJh?usp=drive_link
